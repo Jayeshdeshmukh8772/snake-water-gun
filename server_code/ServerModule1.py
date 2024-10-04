@@ -18,4 +18,5 @@ import anvil.server
 
 @anvil.server.callable:
 def Lets_Play(USERs entry,COMPUTERs entry):
-  pass
+  # app_tables.game.add_row(USERs entry,COMPUTERs entry)
+  
