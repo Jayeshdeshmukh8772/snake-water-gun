@@ -1,4 +1,16 @@
 allow_embedding: false
+db_schema:
+  game:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: USER's entry
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: COMPUTER's entery
+      type: string
+    server: full
+    title: Game
 dependencies: []
 metadata: {logo_img: 'asset:Screenshot 2024-10-04 145555.png'}
 name: Snake~Water~Gun
